@@ -91,7 +91,6 @@ const handleLineClick = (e) => {
   colorLine(selectedLine);
 
   let check = checkBox(lineId);
-  console.log(check);
   if (check == "n") {
     changeTurn();
   }
